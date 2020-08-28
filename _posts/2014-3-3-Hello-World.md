@@ -1,10 +1,6 @@
 ---
-layout: post
-title: You're up and running!
+layout: 
+title: HW0
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
-
-![_config.yml]({{ site.baseurl }}/images/config.png)
-
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+Hi my name is Paul Joseph. I am a senior at the College of Charleston, majoring in Computer Science with a minor in Biology. I grew up in Camden, South Carolina. A small town outside of Columbia. When I moved to Charleston I started surfing and kiteboarding and I have caught the so called "fever". I hope to stay in Charleston after graduating to be able to countinue doing what I love. 
