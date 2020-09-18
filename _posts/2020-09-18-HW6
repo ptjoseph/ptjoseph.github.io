@@ -1,0 +1,19 @@
+---
+layout: post
+title: HW6 - Chapter 2
+---
+
+Ex 2.1
+Suggest the most appropriate generic software process model that might be used as a basis for managing the development of the following systems. Explain your answer according to the type of system being developed:
+
+A system to control antilock braking in a car
+The best software process model in this case would have to be the water fall method, since the antilocking system could mean life or death for the driver. Careful attention to safety need to be thought through during the development process.
+
+A virtual reality system to support software maintenance
+For this scenario, incremental software process model would be the best since it will most likely be a team project. So therefore all changes would be mapped out nicely and it would be easy to communicate and see team member changes.
+
+A university accounting system that replaces an existing system
+For this situation, it would be best to use integration and configuration because this would allow programmers to reuse code from the old accounting system and help them save money at the same time.
+
+An interactive travel planning system that helps users plan journeys with the lowest environmental impact
+In this scenario, the incremental software process model would be the best to use because the travel system would be built from the ground up and it would make it easier to work together.
