@@ -1,0 +1,27 @@
+---
+layout: post
+title: HW 9 - Chapter 8 and reflections on readings
+---
+
+8.7
+
+Write a scenario that could be used to help design tests for the wilderness weather station system:
+
+Scenario: The Winter weather station is moved 
+Initial assumption: The wilderness weather stations are small self contained systems with instruments that collect data and transmit them to larger systems which utilize this data to monitor the weather. Because they are left unattended to there has to be mechanisms to show that the station hasn't been picked up and moved to a different area by an animal or a prankster. 
+
+Normal: The wilderness weather station senses that it is being moved more than normal. It can check its GPS coordinates to see whether that sensory data was erroneous and whether to shut down the system. If it turns out that the station is being moved then it should signal to the larger system to disregard its recent data and report itself missing while transmitting its current location 
+
+What can go wrong: If the station is moved from where it was installed without alerting the master system that it's a part of it could continue to send readings that aren't reflective of the place where it was installed. This could mess up the integrity of the large data collection system as a whole. Locals that rely on the weather station for forecasting would be using bad data. If the system didn't transmit where it was going a piece of expensive equipment would be destroyed. 
+
+
+System state on completion: 
+The station's data transmission is shut down. It continues to transmit its location. The larger system is updated on what happened.
+
+
+8.10
+
+A common approach to system testing is to test the more important functionalities of a system first, followed by the less important functionalities until the testing budget is exhausted. Discuss the ethics involved in identifying what “more important” means. 
+
+I think this is another good question for the contractor analogy. Contractors get their bad rap not necessarily because they don't deliver in the first place but that they deliver something that is not exactly what the customer was looking for. Sure, we have drywall but there's dents in it. We have stairs but they're splintery. The same could be said for software engineers that fail to deliver software that is fully tested. The customer gets the software that they wanted and it works. However, the edge cases failing leave a sour taste in the customer's mouth. So following the soft of professional ethics (see ACM) delivering a crappy product brings down the reputation of software engineering. In the same light if software is developed that is safety critical then it could literally lead to death.  
+I think this is a hard thing to reconcile. At least for software created using agile processes there is lots of input from the customer throughout. In these cases, it's probably likely that they've consulted the customer about their testing woes. Though if they still deliver a bad product usually the customer forgets about all of the negligence on their part. IT's also hard to reconcile budgets in either time or money with customers for this same lack of a balance of power.
