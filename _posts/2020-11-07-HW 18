@@ -1,0 +1,15 @@
+---
+layout: post
+title: HW 18 - Chapter 21 and Chapter 22
+---
+
+Ex 21.4
+Q: Explain why an object-oriented approach to software may not be suitable for real-time systems.
+
+A: Real-time systems look for real time correctness which depends on not only the result but the time at which they are produced. In object-oriented approach, the concept of valuing timing for the correctness is not an attribute that is considered. This could cause unrealiable timings to the structure of the approach.
+
+Ex 22.6
+Q: Fixed-price contracts, where the contractor bids a fixed price to complete system development, may be used to move project risk from client to contractor. If anything goes wrong, the contractor has to pay. Suggest how the use of such contracts may increase the likelihood that product risks will arise.
+
+A: If a contractor accepts a job at a fixed price contract, they probably will not be fully invested in the project. Rather they are more interested in getting the job done with in a certain time frame as they would not benefit from spending any extra time on it. I think this could increase the likelihood of product risks arising. I would question wether or not the contractor would be willing to do the extra testing in the case that the product timeline is altered? However the ethics of the developer are really where the answers can be found. 
+
